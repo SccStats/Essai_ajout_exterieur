@@ -1,0 +1,1 @@
+SELECT `titre` AS "Titres films" FROM `film` WHERE `genre_id` > 0 AND `genre_id` < 4 AND `titre` LIKE '%E';
